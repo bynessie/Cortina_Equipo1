@@ -14,7 +14,6 @@ Describe el problema de ingeniería que se resolverá.
 - 
 
 ## Diagrama de bloques
-<img width="986" height="691" alt="image" src="https://github.com/user-attachments/assets/d6dcbf8c-0217-4a59-8dd6-3a5bb547854a" />
 
 
 ## Conclusiones del análisis
