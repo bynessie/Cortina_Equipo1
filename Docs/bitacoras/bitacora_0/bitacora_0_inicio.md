@@ -1,7 +1,7 @@
 # Bitácora 0 – Inicio del Proyecto
 
 ## Comprensión del problema
-Describe con tus palabras el sistema a desarrollar.
+Diseño e implementación de un sistema mecatrónico para el control automático del enrollado y desenrollado de una cortina industrial, incorporando la configuración de parámetros como tiempo, altura y velocidad, así como criterios de seguridad operativa y una interfaz de usuario estructurada.
 
 ## Autoevaluación inicial
 - Sensores:
