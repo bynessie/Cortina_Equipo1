@@ -17,7 +17,6 @@ Describe el problema de ingeniería que se resolverá.
 -
 
 ## Imagen diagrama final
-<img width="986" height="691" alt="image" src="https://github.com/user-attachments/assets/8ff09ea4-7d7d-4df6-9437-2fbf3c49c410" />
 
 ## Conclusiones del análisis
 Breve reflexión técnica.
