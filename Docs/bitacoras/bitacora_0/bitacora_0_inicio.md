@@ -4,10 +4,10 @@
 Diseño e implementación de un sistema mecatrónico para el control automático del enrollado y desenrollado de una cortina industrial, incorporando la configuración de parámetros como tiempo, altura y velocidad, así como criterios de seguridad operativa y una interfaz de usuario estructurada.
 
 ## Autoevaluación inicial
-- Sensores:
-- Actuadores:
-- Controlador (LOGO):
-- Integración:
+- Sensores: Los sensores son dispositivos que captan magnitudes físicas del entorno (posición, presencia, distancia, fuerza) y las transforman en señales eléctricas que el controlador puede interpretar.
+- Actuadores: Los actuadores son los elementos que convierten energía (eléctrica, neumática, hidráulica) en movimiento mecánico. En este caso, el actuador principal es el motor encargado de enrollar y desenrollar la cortina.
+- Controlador (LOGO): El Siemens LOGO! es un módulo lógico programable de tipo "micro-PLC", diseñado para automatizaciones pequeñas y medianas.
+- Integración: La integración mecatrónica es el proceso de conectar y coordinar los subsistemas mecánico, electrónico, de control y de software para que funcionen como una unidad coherente. 
 
 ## Retos percibidos
 El mayor reto del proyecto será la integración adecuada del sistema con la interfaz de usuario, ya que es fundamental que las alarmas se muestren de manera clara para el operador y que además queden registradas correctamente para su posterior análisis y mantenimiento.
