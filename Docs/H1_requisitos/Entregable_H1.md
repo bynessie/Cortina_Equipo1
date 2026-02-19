@@ -54,6 +54,7 @@ Espacio de instalación: El área superior e inferior de la cortina cuenta con e
 
 Comunicación Control-HMI: Existe un medio de comunicación viable, por ejemplo, cableado o red, entre el controlador lógico y la interfaz de operación sin interferencias críticas.
 
+## Definición de Requerimientos 
 ### Requerimientos Funcionales
 #### RF-01
 - Enunciado: El sistema deberá permitir operación manual donde la cortina se mueva únicamente mientras el botón esté presionado y se detenga al soltarlo.
