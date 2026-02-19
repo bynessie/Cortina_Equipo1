@@ -53,6 +53,8 @@ Mantenimiento disponible: Existirá un plan de mantenimiento para verificar el e
 Espacio de instalación: El área superior e inferior de la cortina cuenta con el espacio físico necesario para instalar los sensores de límite y el mecanismo de enrollado.
 
 Comunicación Control-HMI: Existe un medio de comunicación viable, por ejemplo, cableado o red, entre el controlador lógico y la interfaz de operación sin interferencias críticas.
+
+### Requerimientos Funcionales
 #### RF-01
 - Enunciado: El sistema deberá permitir operación manual donde la cortina se mueva únicamente mientras el botón esté presionado y se detenga al soltarlo.
 - Criterio verificable: Si el botón manual se mantiene presionado, la cortina se mueve; al soltarlo, el movimiento se detiene en menos de 0.5 s.
