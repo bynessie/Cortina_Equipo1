@@ -57,7 +57,7 @@ Comunicación Control-HMI: Existe un medio de comunicación viable, por ejemplo,
 ### Requerimientos Funcionales
 #### RF-01
 - Enunciado: El sistema deberá permitir operación manual donde la cortina se mueva únicamente mientras el botón esté presionado y se detenga al soltarlo.
-- Criterio verificable: Si el botón manual se mantiene presionado, la cortina se mueve; al soltarlo, el movimiento se detiene en menos de 0.5 s.
+- Criterio verificable: Si el botón manual se mantiene presionado, la cortina se mueve; al soltarlo, el movimiento se detiene en <0.5 s.
 - Prioridad: Must
 - Riesgo si falla: Movimiento incontrolado / riesgo para el usuario.
 
