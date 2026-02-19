@@ -1,12 +1,58 @@
 # Hito 1 – Análisis y Requerimientos
 
 ## Descripción del problema
-Describe el problema de ingeniería que se resolverá.
-El problema de ingeniería consiste en diseñar e implementar un sistema automatizado que permita optimizar un proceso operativo (por ejemplo control, monitoreo o automatización) para mejorar la eficiencia, reducir errores humanos y garantizar un funcionamiento seguro.
-Actualmente el proceso presenta limitaciones como falta de control automático, retrasos en la respuesta del sistema o riesgos operativos, lo que justifica el desarrollo de una solución tecnológica basada en sensores, actuadores y un sistema de control programable.
-## Requerimientos del sistema
-### Requerimientos Funcionales
+1. Descripción Clara del Problema
+ 
+Una compañía dedicada a la fabricación de cortinas industriales requiere automatizar la operación de apertura y cierre de sus cortinas para mejorar la eficiencia y seguridad en el proceso.
+El problema de ingeniería consiste en diseñar un sistema mecatrónico que cumpla con las siguientes especificaciones críticas:
+Dimensionamiento: La cortina varía entre 3 a 4 metros de ancho y 3 a 7 metros de alto.
+Carga Mecánica: El material es hule termo-formado (900 gramos por yarda cuadrada) con barras tensoras metálicas de 35 Kg cada una, colocadas cada 2 metros de ancho.
+Control de Movimiento: El actuador debe enrollar la cortina hasta una altura configurable en un tiempo ajustable entre 3 a 5 segundos mediante interfaz de usuario.
+Perfil de Velocidad: El movimiento debe contar con dos velocidades: alta al arranque y baja para la detención precisa.
+Seguridad Operativa: Es obligatorio detectar obstáculos (personas o carros de carga) durante el descenso. Al detectar un obstáculo, el sistema debe detenerse, subir la cortina y repetir el ciclo de espera, suspendiendo el conteo del tiempo mientras persista el obstáculo.
+Interacción: El sistema debe permitir operación mediante botones físicos (arriba, abajo, paro) y una interfaz de operación (HMI) con niveles de usuario diferenciados.
 
+2. Contexto del Sistema
+El sistema se implementará en un entorno industrial donde interactúan operadores humanos, maquinaria y el entorno físico.
+
+2.1 Actores y Roles
+Operador: Verificar funcionamiento, visualizar alarmas (obstáculos), operar en modo manual o automático.
+Supervisor: Ajustar límites de movimiento, tiempos de activación, velocidades (lenta/rápida). Tiene todas las funciones del operador.
+Técnico Especializado: Definir límites de movimiento (posición superior/inferior) con protección de contraseña.
+
+2.2 Modos de Operación
+Modo Manual: La cortina se mueve mientras se presiona el botón correspondiente. Se detiene al soltar el botón o al alcanzar un límite detectado por sensor.
+Modo Automático: Ciclo completo iniciado por señal de arranque:
+Subir a velocidad alta.
+Llegar a posición máxima de altura.
+Esperar tiempo configurable.
+Bajar a velocidad lenta.
+
+2.3 Interfaces de Control
+Entradas Físicas: Botones (Arriba, Abajo, Paro).
+Interfaz de Operación (HMI): Permite configuración de parámetros (tiempo, altura), visualización de estado (altura actual, número de ciclos) y gestión de usuarios.
+Sensores: Elementos para definir extremos mecánicos (límite superior/inferior) y seguridad (detección de obstáculos).
+
+2.4 Entorno Industrial
+Presencia potencial de personal y carros de carga en la zona de descenso.
+Condiciones que requieren robustez en los componentes electrónicos y mecánicos.
+
+3. Supuestos Definidos
+Para el análisis y diseño inicial del sistema, se establecen los siguientes supuestos técnicos y operativos:
+
+Alimentación eléctrica estable: Se asume disponibilidad de energía eléctrica industrial (110/220V) para el actuador y control.
+
+Capacidad del actuador: El actuador seleccionado tendrá el torque suficiente para levantar el peso máximo (barras de 35 Kg más el peso del material por metro cuadrado).
+
+Confiabilidad de sensores: Los sensores de límite y obstáculo tendrán un tiempo de respuesta compatible con la seguridad requerida (detención antes de impacto).
+
+Funcionalidad de la HMI: La interfaz de usuario permitirá la entrada de datos numéricos (tiempo, altura) y la gestión de contraseñas para niveles de acceso.
+
+Mantenimiento disponible: Existirá un plan de mantenimiento para verificar el estado de las barras tensoras, sensores y actuador periódicamente.
+
+Espacio de instalación: El área superior e inferior de la cortina cuenta con el espacio físico necesario para instalar los sensores de límite y el mecanismo de enrollado.
+
+Comunicación Control-HMI: Existe un medio de comunicación viable, por ejemplo, cableado o red, entre el controlador lógico y la interfaz de operación sin interferencias críticas.
 #### RF-01
 - Enunciado: El sistema deberá permitir operación manual donde la cortina se mueva únicamente mientras el botón esté presionado y se detenga al soltarlo.
 - Criterio verificable: Si el botón manual se mantiene presionado, la cortina se mueve; al soltarlo, el movimiento se detiene en menos de 0.5 s.
