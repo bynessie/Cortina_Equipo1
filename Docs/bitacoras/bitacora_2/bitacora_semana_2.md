@@ -1,10 +1,10 @@
-# Bitácora – Semana X
+# Bitácora – Semana 2
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+Sensores - elección + pruebas
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+Durante esta semana se trabajo en el circuito del LOGO y 
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
