@@ -15,10 +15,11 @@ Ya con esto se elaboró el diagrama del circuito que llevara el sistema LOGO, se
 |--------|-------------|---------------|
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+Durante el armado del sistema, al poner el LOGO sobre el riel descubrimos que este no se sujetaba bien, por lo cual se deslizava sobre el riel.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Este problema lo solucionamos poniendo el LOGO en medio de dos bloques terminal de riel.
+Aparte de esto no tubimos inconvenientes.
 
 ## Conexión con el curso
 **Concepto MR2022 aplicado:** *Sensores - Procedimiento Selección de Sensor*
@@ -29,6 +30,7 @@ Además de saber cómo usarlos y gestionarlos.
 ---
 
 ## Reflexión grupal:
+Durante esta semana se logro crear de forma efectiva el circuito base del sistema que se estara usando junto con un entendimiento correcto de cada uno de los sensores. Aun así, nos falta mejorar la organización en el tema de la ddocumentación y los entregables, por lo cual estaremos trabajando más en ello.
 
 ## Autoevaluación
 
