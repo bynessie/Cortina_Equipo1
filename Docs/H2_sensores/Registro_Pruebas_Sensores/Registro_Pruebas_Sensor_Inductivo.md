@@ -8,9 +8,9 @@
 
 ## Equipo: MR2022
 
-## Integrantes: Juan Carlos Muñoz Enríquez y equipo
+## Integrantes: equipo
 
-## Fecha: Febrero 2026
+## Fecha:26 Febrero 2026
 
 ---
 
