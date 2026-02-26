@@ -1,4 +1,3 @@
-Actualizar la tabla I/O  según los sensores seleccionados. Incluye tipo de señal, descripción funcional y notas relevantes derivadas de las pruebas.
 
 Tabla I/O Actualizada del Sistema
 ### Tabla I/O del Sistema
