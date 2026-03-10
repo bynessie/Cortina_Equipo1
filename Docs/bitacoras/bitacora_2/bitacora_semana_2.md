@@ -13,6 +13,12 @@ Ya con esto se elaboró el diagrama del circuito que llevara el sistema LOGO, se
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+| Uso de sensor inductivo | Sensor Hall | Es fácil de montar, No necesita mucho mantenimiento, es accesible, barato y se usara para detecta una placa metálica o activador |
+| Uso de sensor capacitivo | Botón pulsador industrial | No necesita mucho mantenimiento, es accesible y permite activar manualmente la subida de la cortina mediante contacto físico, siendo una solución simple y confiable |
+| Uso de sensor óptico infrarrojo | Barrera fotoeléctrica | Es fácil de montar, no necesita mucho mantenimiento, es accesible y detecta la interrupción de un haz de luz entre emisor y receptor, ofreciendo mayor confiabilidad para sistemas de seguridad |
+| Uso de sensor magnético | Final de carrera mecánico | Es excelente para detectar posiciones, no genera desgaste mecánico, no necesita mucho mantenimiento, es accesible, barato y podra detectar físicamente cuando la cortina llega al punto máximo superior o inferior, deteniendo el motor de forma directa |
+| Control del sistema mediante PLC Siemens LOGO | Arduino | El PLC ofrece mayor confiabilidad industrial, facilidad de programación, integración directa con sensores de 24V y funciones de seguridad |
+
 
 ## Problema técnico encontrado
 Durante el armado del sistema, al poner el LOGO sobre el riel descubrimos que este no se sujetaba bien, por lo cual se deslizava sobre el riel.
