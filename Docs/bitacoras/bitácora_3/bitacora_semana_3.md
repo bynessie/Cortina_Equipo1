@@ -4,7 +4,7 @@
 Actividad H3 - Actuadores + potencia + seguridad (interlocks)
 
 ## Actividades realizadas
-En esta semana estubimos trabajando en la integración y pruebas de la cortina. Por lo cual terminamos de realizar las conecciones, creamos el código del PCL LOGO, definimos los interlocks prioritarios dentro del sistema y montamos el sistema físico.
+En esta semana estubimos trabajando en la integración y pruebas de la cortina. Por lo cual terminamos de realizar las conecciones, creamos el código del PLC LOGO, definimos los interlocks prioritarios dentro del sistema y montamos el sistema físico.
 
 Por tanto, las actividades que realizamos fue como ya se comento el montaje del sistema físico y su evidencia de funcionamiento, la creación de una tabla de condiciones prohibidas para definir los distintos interlocks, la creación del código y la inclución de los interlocks dentro de este, y la evidencia del funcionamiento de un interlock (Que en este caso fue el de no activar simultaneamente dos acciones distintas sobre el motor). Y como parte extra visitamos la fabrica de American Axle.
 
@@ -14,7 +14,7 @@ Por tanto, las actividades que realizamos fue como ya se comento el montaje del 
 | Usar cinchos para colgar la cortina | Modelar he imprimir en 3D piezas que sostengan está | La decición se tomo debido a que a nuestra percepción fue preferible el enfocar todo nuestro tiempo en probar el funcionamiento de nustras conecciónes y sistema de la cortina. Y el diseñar las piezas he imprimirlas nos hubiera tomado bastante tiempo |
 
 ## Problema técnico encontrado
-Esta vez si nos topamos con un inconveniente, puesto que el código que se nos proporciono inicialmente para nuestro sistema no nos funciono, por lo cual tubimos que crearlo nosotros. Lo cual fue algo complicado al inicio ya que ninguno habia utilizado una PCL LOGO anteriormente y, por tanto, no sabiamos como funcionaba exactamente este.
+Esta vez si nos topamos con un inconveniente, puesto que el código que se nos proporciono inicialmente para nuestro sistema no nos funciono, por lo cual tubimos que crearlo nosotros. Lo cual fue algo complicado al inicio ya que ninguno habia utilizado una PLC LOGO anteriormente y, por tanto, no sabiamos como funcionaba exactamente este.
 
 ## Solución aplicada
 Para entender el funcionamiento del código del LOGO, lo que se hiso fue pedirle a la IA de Gemini una descripción de que realizaba cada bloque de los que debiamos usar dentro del sistema, y gracias a ello pudimos comprender rapidamente su funcionamiento, puesto que anteriormente en el modulo de Sistemas logicos de Integración mecatronica ya habiamos practicado con ese tipo de funciones.
