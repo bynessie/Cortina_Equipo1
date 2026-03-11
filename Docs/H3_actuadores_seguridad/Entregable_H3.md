@@ -44,12 +44,13 @@ El funcionamiento del sistema es el siguiente:
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
-| Activación del sensor capacitivo | La cortina debe iniciar el movimiento de subida |  |
-| Activación del sensor inductivo | La cortina debe iniciar el movimiento de bajada |  |
-| Activación del sensor infrarrojo durante el descenso | El sistema debe detener la cortina y subirla |  |
-| Activación del sensor magnético superior | El motor debe detenerse |  |
-| Activación del sensor magnético inferior | El motor debe detenerse |  |
-| Señalización | El semaforo deben indicar el estado del sistema |
+| Activación del sensor capacitivo | La cortina debe iniciar el movimiento de subida | La cortina subio |
+| Activación del sensor inductivo | La cortina debe iniciar el movimiento de bajada | La cortina bajo |
+| Activación del sensor infrarrojo durante el descenso | El sistema debe detener la cortina y subirla | La cortina se detubo |
+| Activación del sensor magnético superior | El motor debe detenerse | La cortina se detubo arriba |
+| Activación del sensor magnético inferior | El motor debe detenerse | La cortina se detubo abajo |
+| Señalización | El semaforo deben indicar el estado del sistema |  El semaforo se mantubo en verde mientras no hubo ninguna obstrucción en el sistema |
 
 ## Ajustes realizados
 Describe cambios hechos tras las pruebas.
+Uno de los cambios que se tuvo que realizar fue en el código inicial que se nos proporciono para el proyecto, esto debido a que el código no funcionaba del todo bien y aparte este no tomaba en consideración los interlocks debidos para mantener la seguridad tanto del usuario como del sistema.
