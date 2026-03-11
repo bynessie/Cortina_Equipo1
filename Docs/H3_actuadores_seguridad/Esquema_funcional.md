@@ -7,5 +7,6 @@
 # Evidencia de la implementación
 https://github.com/user-attachments/assets/88358f1d-a367-4435-9666-7cae11fc570b
 
-- **Color verde**: Este indica que el sistema esta funcionando de forma correcta
-- **Color rojo**: En teoria este deveria indicar un fallo en el sistema, aunque debido a algunos problemas con el codigo esta se activava cuando la cortina hiba para arriba
+En el video el semaforo muestra lo siguiente:
+- **Color verde**: Indica que la cortina está subiendo
+- **Color rojo**: Indica que la cortina está bajanddo
