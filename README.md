@@ -28,7 +28,7 @@ Tabla de detección de sensores o pruebas del sistema.
 (link al video)
 
 ## Equipo
-Jonathan Uriel Escamilla González
-Juan Carlos Muñoz Enriquez
-Marian Zamarripa Espinoza
-Erick Daniel Puente Hernández 
+- Jonathan Uriel Escamilla González
+- Juan Carlos Muñoz Enriquez
+- Marian Zamarripa Espinoza
+- Erick Daniel Puente Hernández 
