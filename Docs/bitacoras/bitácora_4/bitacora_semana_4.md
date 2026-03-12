@@ -1,10 +1,10 @@
 # Bitácora – Semana 4
 
 ## Tema de la semana
-Actividad H4 - HMI + Control
+Actividad H4 - HMI + Control + Validación
 
 ## Actividades realizadas
-Durante esta semana estubimos puliendo el sistema de la cortina que ya se habia montado anteriormente, por lo cual mejoramos los soportes de la cortina, terminamos de instalar de forma correcta todo lo que faltaba y porbamos el funcionamiento de esta, creamos el diagrama de la maquina de estados y una matriz con pruevas de funciónamiento que se realizaron.
+Durante esta semana estubimos puliendo el sistema de la cortina que ya se habia montado anteriormente, por lo cual mejoramos los soportes de la cortina, terminamos de instalar de forma correcta todo lo que faltaba y porbamos el funcionamiento de esta, creamos el diagrama de la maquina de estados y una matriz con pruevas de funciónamiento que se realizaron para lograr la validación del sistema.
 
 También se hiba a diseñar el HMI para el PLC LOGO, pero debido a unos cambios en el proyecto esto ya no se hiso.
 
