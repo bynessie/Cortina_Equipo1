@@ -52,10 +52,6 @@ Describe paso a paso cómo opera el sistema completo:
 ---
 
 ## Validación del controlador (LOGO)
-Describe:
-- Temporizaciones
-- Condiciones lógicas
-- Interlocks o seguridades implementadas
 En este proyecto las condiciones lógicas del sistema se basaron en la activación de distintos sensores para el funciónamiento del sistema, donde cada uno realizaba lo siguiente:
 - Capacitivo: Al activarse bajaba la cortina
 - Inductivo: Al activarse subia la cortina
