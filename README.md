@@ -4,7 +4,7 @@
 Una compañía dedicada a la fabricación de cortinas industriales requiere automatizar la operación de apertura y cierre de sus cortinas para mejorar la eficiencia y seguridad en el proceso. El problema de ingeniería consiste en diseñar un sistema mecatrónico que cumpla con las siguientes especificaciones críticas: Dimensionamiento: La cortina varía entre 3 a 4 metros de ancho y 3 a 7 metros de alto. Carga Mecánica: El material es hule termo-formado (900 gramos por yarda cuadrada) con barras tensoras metálicas de 35 Kg cada una, colocadas cada 2 metros de ancho. Control de Movimiento: El actuador debe enrollar la cortina hasta una altura configurable en un tiempo ajustable entre 3 a 5 segundos mediante interfaz de usuario. Perfil de Velocidad: El movimiento debe contar con dos velocidades: alta al arranque y baja para la detención precisa. Seguridad Operativa: Es obligatorio detectar obstáculos (personas o carros de carga) durante el descenso. Al detectar un obstáculo, el sistema debe detenerse, subir la cortina y repetir el ciclo de espera, suspendiendo el conteo del tiempo mientras persista el obstáculo. Interacción: El sistema debe permitir operación mediante botones físicos (arriba, abajo, paro) y una interfaz de operación (HMI) con niveles de usuario diferenciados.
 
 ## Arquitectura del sistema
-La arquitectura del sistema se encuentra en "Cortina_Equipo1/Docs/H4_control_hmi/Diagrama_Bloques.md" (No me deja insertar la imagen)
+La arquitectura del sistema se encuentra en "[Cortina_Equipo1/Docs/H4_control_hmi/Diagrama_Bloques.md](https://github.com/bynessie/Cortina_Equipo1/blob/main/Docs/H4_control_hmi/Diagrama_Bloques.md)"
 
 ## Componentes utilizados
 - Sensor inductivo
