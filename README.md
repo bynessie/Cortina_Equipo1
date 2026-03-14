@@ -52,7 +52,7 @@ La lógica de control del sistema es el siguiente:
 | Lámpara roja | Activación cuando el motor llega arriba | La lámpara roja se enciende cuando detecta el sensor magnético de arriba | La lámpara roja se encendio cuando la cortina llego hasta arriba |
 
 ## Video demo
-(link al video)
+[(link al video)](https://github.com/bynessie/Cortina_Equipo1/blob/main/Docs/H4_control_hmi/Diagrama_Bloques.md)
 
 ## Equipo
 - Jonathan Uriel Escamilla González
